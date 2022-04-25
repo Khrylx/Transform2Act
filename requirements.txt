@@ -1,0 +1,6 @@
+gym==0.15.4
+opencv-python
+glfw
+pyyaml
+tensorboard
+lxml
