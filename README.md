@@ -50,7 +50,7 @@ python design_opt/train.py --cfg hopper --gpu 0
 ```
 You can replace `hopper` with {`ant`, `gap`, `swimmer`} to train other environments. Here is the correspondence between the configs and the environments in the paper: `hopper - 2D Locomotion`, `ant - 3D Locomotion`, `swimmer - Swimmer`, and `gap - Gap Crosser`.
 
-# Visualize
+# Visualization
 If you have a display, run the following command to visualize the pretrained model for the `hopper`:
 ```
 python design_opt/eval.py --cfg hopper
