@@ -14,7 +14,7 @@ parser.add_argument('--epoch', default='best')
 parser.add_argument('--save_video', action='store_true', default=False)
 parser.add_argument('--pause_design', action='store_true', default=False)
 args = parser.parse_args()
-cfg = Config(args.cfg, tmp=False, create_dirs=False)
+cfg = Config(args.cfg, tmp=False)
 
 dtype = torch.float64
 torch.set_default_dtype(dtype)

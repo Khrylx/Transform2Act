@@ -19,7 +19,7 @@ parser.add_argument('--show_noise', action='store_true', default=False)
 args = parser.parse_args()
 if args.render:
     args.num_threads = 1
-cfg = Config(args.cfg, args.tmp, create_dirs=not (args.render or args.epoch != '0'))
+cfg = Config(args.cfg, args.tmp)
 
 dtype = torch.float64
 torch.set_default_dtype(dtype)

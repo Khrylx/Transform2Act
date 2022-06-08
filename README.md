@@ -33,7 +33,7 @@ Ye Yuan, Yuda Song, Zhengyi Luo, Wen Sun, Kris Kitani
     pip install torch-geometric==1.6.1
     ```
 4. install mujoco-py following the instruction [here](https://github.com/openai/mujoco-py#install-mujoco).
-5. Set the following environment variable to avoid problems with multiprocessed sampling:    
+5. Set the following environment variable to avoid problems with multiprocess trajectory sampling:
     ```
     export OMP_NUM_THREADS=1
     ```
