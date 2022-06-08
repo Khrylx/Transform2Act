@@ -33,6 +33,10 @@ Ye Yuan, Yuda Song, Zhengyi Luo, Wen Sun, Kris Kitani
     pip install torch-geometric==1.6.1
     ```
 4. install mujoco-py following the instruction [here](https://github.com/openai/mujoco-py#install-mujoco).
+5. Set the following environment variable to avoid problems with multiprocessed sampling:    
+    ```
+    export OMP_NUM_THREADS=1
+    ```
 
 ### Pretrained Models
 * You can download pretrained models from [Google Drive](https://drive.google.com/file/d/1-pJrGPCcbaiCpENss5jYzRF_ZFJncFJB/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1szh3F97T9JNhoV2rG_-Gew?pwd=2x3q) (password: 2x3q).
