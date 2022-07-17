@@ -12,20 +12,15 @@ import shutil
 class GapEnv(MujocoEnv, utils.EzPickle):
 
     HFIELD_FNAME = 'gap_terrain.png'
-    TEXTURE_FNAME = 'gap_texture.png'
-    texture_dir = '/tmp/mujoco_textures'
     hfield_dir = '/tmp/mujoco_terrains'
 
     def __init__(self, cfg, agent):
 
         self.cur_t = 0
-        self.texture_file = f'{self.texture_dir}/{self.HFIELD_FNAME}'
         self.hfield_file = f'{self.hfield_dir}/{self.HFIELD_FNAME}'
         if not osp.exists(self.hfield_file):           
-            os.makedirs(self.texture_dir, exist_ok=True)
             os.makedirs(self.hfield_dir, exist_ok=True)
             shutil.copyfile(f'assets/mujoco_terrains/{self.HFIELD_FNAME}', self.hfield_file)
-            shutil.copyfile(f'assets/mujoco_textures/{self.TEXTURE_FNAME}', self.texture_file)
 
         self.cfg = cfg
         self.agent = agent
