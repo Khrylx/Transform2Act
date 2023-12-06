@@ -39,7 +39,7 @@ Ye Yuan, Yuda Song, Zhengyi Luo, Wen Sun, Kris Kitani
     ```
 
 ### Pretrained Models
-* You can download pretrained models from [Google Drive](https://drive.google.com/file/d/1-pJrGPCcbaiCpENss5jYzRF_ZFJncFJB/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1szh3F97T9JNhoV2rG_-Gew?pwd=2x3q) (password: 2x3q).
+* You can download pretrained models from [Google Drive](https://drive.google.com/file/d/1Hl2sEAD2BQ2w8TaaA_TZatPGm4tm5L2H/view?usp=drivesdk) or [BaiduYun](https://pan.baidu.com/s/1szh3F97T9JNhoV2rG_-Gew?pwd=2x3q) (password: 2x3q).
 * Once the `transform2act_models.zip` file is downloaded, unzip it under the `results` folder of this repo:
   ```
   mkdir results
